@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <title>10 Fast Fingers</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+      </style>
+  </head>
+  <body>
+    <div class="tenfastfingers">
+      <div class="main-content">
+        <header class="text-center">
+          <h1>10 Fast Fingers</h1>
+        </header>
+        <div class="row">
+          <div>
+            <h2 id="chu_hien_tai">Xin Chào!</h2>
+            <input
+              type="text"
+              placeholder="Texting here..."
+              id="chu_duoc_nhap"
+              class = "input-content"
+              autofocus
+            />
+            <h4 id="thong_bao"></h4>
+
+              <div>
+                <h3>
+                  Time:<br />
+                  <span id="giay">0</span>
+                </h3>
+              </div>
+                <h3>
+                  Score:<br />
+                  <span id="diem">0</span>
+                </h3>
+              </div>
+            </div>
+            <div class="text-center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="keyboard">
+      <div class="keyboard__row">
+        <p class="row1"></p>
+        <div class="key--letter" data-char="Q">Q</div>
+        <div class="key--letter" data-char="W">W</div>
+        <div class="key--letter" data-char="E">E</div>
+        <div class="key--letter" data-char="R">R</div>
+        <div class="key--letter" data-char="T">T</div>
+        <div class="key--letter" data-char="Y">Y</div>
+        <div class="key--letter" data-char="U">U</div>
+        <div class="key--letter" data-char="I">I</div>
+        <div class="key--letter" data-char="O">O</div>
+        <div class="key--letter" data-char="P">P</div>
+        <p class="row1"></p>
+      </div>
+      <div class="keyboard__row">
+        <p class="row2"></p>
+        <div class="key--letter" data-char="A">A</div>
+        <div class="key--letter" data-char="S">S</div>
+        <div class="key--letter" data-char="D">D</div>
+        <div class="key--letter" data-char="F">F</div>
+        <div class="key--letter" data-char="G">G</div>
+        <div class="key--letter" data-char="H">H</div>
+        <div class="key--letter" data-char="J">J</div>
+        <div class="key--letter" data-char="K">K</div>
+        <div class="key--letter" data-char="L">L</div>
+        <p class="row2"></p>
+      </div>
+      <div class="keyboard__row">
+        <p class="row3"></p>
+        <div class="key--letter" data-char="Z">Z</div>
+        <div class="key--letter" data-char="X">X</div>
+        <div class="key--letter" data-char="C">C</div>
+        <div class="key--letter" data-char="V">V</div>
+        <div class="key--letter" data-char="B">B</div>
+        <div class="key--letter" data-char="N">N</div>
+        <div class="key--letter" data-char="M">M</div>
+        <p class="row3"></p>
+      </div>
+      <div class="keyboard__row keyboard__row--h3">
+        <p class="row-space"></p>
+        <div
+          class="key--double key--right key--space"
+          data-key="32"
+          data-char=" "
+        >
+          &nbsp;
+        </div>
+        <p class="row-space"></p>
+      </div>
+    </div>
+    <script src="./script/keyboard.js"></script>
+    <script src="script/10fastfingers.js"></script>
+  </body>
+</html>
